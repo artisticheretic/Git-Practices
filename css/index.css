@@ -182,21 +182,22 @@ p{
 }
 
 .section-statistics{
-    padding: 50px 0px;
-    background-color: #cccbcb33;
+    padding-bottom: 50px;
+    margin-top: -60px;
 }
 
 .statistics{
     display: flex;
     align-items: center;
-    margin-top: -120px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .statistics-row{
     width: 25%;
     background-color: #fff;
-    margin: 0px 10px;
-    padding: 20px 0px;
+   margin-right: 10px;
+    padding: 14px 14px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
 }
@@ -207,7 +208,7 @@ p{
     vertical-align: middle;
     background: #ffe600;
     height: 3px;
-    width: 200px;
+    width: 160px;
 }
 
 .row-head > h4{
@@ -216,10 +217,13 @@ p{
     margin: 0;
     color: #1b8681;
     font-weight: 500;
+    text-align: left;
 }
 
 .row-article{
-    padding: 12px 15px;
+    padding: 10px 0px;
+    text-align: left;
+    font-size: 15px;
 }
 
 .row-article > p{
@@ -240,7 +244,9 @@ p{
 
 .a-link:hover{
     font-size: 25px;
-    transition: ease-in-out;
 }
 
+.statistics-row-box{
+    padding: 8px;
+}
 
